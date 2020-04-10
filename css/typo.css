@@ -1,19 +1,115 @@
-body {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Blinker|Lacquer|Lexend+Giga|Megrim|Red+Hat+Text|Thasadith&display=swap');
+
+header1 {
+  font-size: 1.5em;
+  font-family: 'Red Hat Text', sans-serif;
+  letter-spacing: 0.325rem;
 }
+
+
+#about {
+  font-size: 1em;
+}
+
+
+#about h2{
+  font-size: 2em;
+  font-weight: bolder;
+  color: #fca0c9;
+}
+
+
+#about p{
+  font-size: 2em;
+  line-height: 2em;
+  color: #5e5e5e;
+}
+
+
+#about p2{
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #5e5e5e;
+  letter-spacing: 0.325rem;
+}
+
+
+#about ul{
+letter-spacing: 0.325rem;
+text-align: center;
+margin-top: 6em;
+margin-bottom: 7em;
+padding-left: 7px;
+padding-right: 3px;
+padding-top: 7px;
+padding-bottom: 7px;
+background-color:#d3d3d3;
+border-radius:10px;
+width : 160px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+#projects ul{
+letter-spacing: 0.325rem;
+text-align: center;
+margin-top: 6em;
+margin-bottom: 7em;
+padding-left: 7px;
+padding-right: 3px;
+padding-top: 7px;
+padding-bottom: 7px;
+background-color:#d3d3d3;
+border-radius:10px;
+width : 160px;
+
+margin-left:auto;
+margin-right:auto;
+}
+
+
+#contact{
+  color: #fca0c9;
+}
+
+
+#contact p{
+  font-size: 2em;
+  line-height: 3.5em;
+  letter-spacing: 0.2rem;
+}
+
+
+body {
+  font-size: 0.5em;
+  font-family: 'Red Hat Text', sans-serif;
+  text-align: center;
+}
+
 
 h1 {
-  font-size: 3em;
+  font-size: 6em;
+  font-family: 'Red Hat Text', sans-serif;
+  letter-spacing: 0.325rem;
   margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
 }
+
 
 h2 {
-  font-size: 2em;
-  margin-bottom: 0.65em;
+  font-size: 4em;
+  line-height: 1.25em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  position: center;
+  font-family: 'Red Hat Text', sans-serif;
+  letter-spacing: 0.325rem;
 }
 
-
-figcaption {
-    font-size: 0.75em;
-    font-style: italic;
+#projects p{
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #707070;
 }
